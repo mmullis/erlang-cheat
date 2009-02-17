@@ -8,6 +8,10 @@ Usage:
 Install in a location on the erlang code path.
 Usually this is where the other libs are but it can be relocated with some path changes. (see google).
 
+This implementation shares the same cache as the ruby version. The cache is in ~/.cheat
+so if cheat files are pulled by erlang-cheat, they should be readable by
+the ruby version as well and avoid extra hits on the source server.
+
 Start Cheating!
 ---------------------------
 Once installed somewhere in the erlang code path,
