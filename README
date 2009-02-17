@@ -20,6 +20,18 @@ enter the shell and you can do fun stuff like this.
 Learning git?
   cheat:sheet(git).
 
+Looking for love?
+  cheat:sheet(girlfriend).
+
+Feeling heavy?
+  cheat:sheet(loose_weight).  % Yeah, loose should be lose - not my call.
+
+Need to talk to Johnny Law?
+  cheat:sheet(police).
+
+Like using ratpoison?
+  cheat:sheet(ratpoison).
+
 Need some lorem text:
   cheat:sheet(lorem).
 
@@ -32,3 +44,8 @@ Remove an old sheet:
 
 Re-acquire a sheet from the source:
   cheat:sheet_reset(git).
+
+
+Next Steps
+---------------------------
+Add erlang specific cheats to http://cheat.errtheblog.com.
