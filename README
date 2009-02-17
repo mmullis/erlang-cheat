@@ -1,0 +1,30 @@
+-=================-
+ Erlang Cheat
+-=================-
+erlang-cheat is a client side interface to Cheat Sheets on http://cheat.errtheblog.com .
+
+Usage:
+---------------------------
+Install in a location on the erlang code path.
+Usually this is where the other libs are but it can be relocated with some path changes. (see google).
+
+Start Cheating!
+---------------------------
+Once installed somewhere in the erlang code path,
+enter the shell and you can do fun stuff like this.
+
+Learning git?
+  cheat:sheet(git).
+
+Need some lorem text:
+  cheat:sheet(lorem).
+
+See what's available:
+  cheat:recent().
+  cheat:all().
+
+Remove an old sheet:
+  cheat:remove_sheet(git).
+
+Re-acquire a sheet from the source:
+  cheat:sheet_reset(git).
